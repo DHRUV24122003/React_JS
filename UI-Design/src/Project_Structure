@@ -1,0 +1,39 @@
+hotel-booking-confirmation/
+├── public/
+│   └── vite.svg (default)
+│
+├── src/
+│   ├── assets/              # Images, icons
+│   │   ├── icons/
+│   │   └── images/
+│   │
+│   ├── components/          # Reusable components
+│   │   ├── ui/              # Small UI pieces (Button, Card, etc.)
+│   │   ├── layout/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Header.jsx
+│   │   ├── receipt/
+│   │   │   ├── BookingReceipt.jsx
+│   │   │   └── WelcomeCard.jsx
+│   │   └── info/
+│   │       ├── InfoCard.jsx
+│   │       └── WeatherCard.jsx
+│   │
+│   ├── pages/               # Main pages (agar multi-page ho)
+│   │   └── ConfirmationPage.jsx
+│   │
+│   ├── data/                # Static data
+│   │   └── bookingData.js
+│   │
+│   ├── utils/               # Helper functions
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css            # Global styles + Tailwind
+│
+├── .env
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+├── package.json
+└── README.md
