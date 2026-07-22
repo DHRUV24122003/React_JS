@@ -1,0 +1,13 @@
+html,
+body{
+  height:100%;
+  width:100%;
+  background-color:rgba(15, 15, 3, 0.857);
+
+}
+input,button{
+  padding:10px 20px;
+  margin: 10px;
+  font-size:15px;
+
+}
