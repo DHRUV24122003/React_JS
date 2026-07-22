@@ -1,0 +1,49 @@
+import React from 'react'
+import { useState } from 'react'
+
+//const App = () => {
+//  const [a,setA] = useState(20);
+//  const [num,setNum] = useState('naman');
+//  const changeNum = () =>{
+//   setNum(30)
+//  }
+  
+  
+//   return ( 
+//     <div>
+//       <h1>value of num is {num}</h1>
+//       <button onClick={changeNum}>click here</button>
+//     </div>
+//   )
+// }
+
+
+
+//let's make a simple counter
+
+const App = () => {
+  const [num,setNum] = useState(10);
+
+  function increaseNum(){
+    setNum(num+5);
+  }
+  function decreaseNum(){
+    setNum(num-5);
+  }
+
+
+
+return (
+  <div>
+    <h1>{num}</h1>
+    <button onClick = {increaseNum}>increase</button>
+    <button onClick={decreaseNum}>decrease</button>
+    
+    </div>
+)
+}
+
+
+
+
+export default App;
